@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smart Bell System Events</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1>Smart Bell Events</h1>
+
+  <section>
+    <h2>Create Event</h2>
+    <form id="eventForm">
+      <label>
+        ID:
+        <input type="text" id="eventId" required />
+      </label>
+      <br />
+      <label>
+        Description:
+        <input type="text" id="eventDescription" />
+      </label>
+      <br />
+      <button type="submit">Add Event</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Event List</h2>
+    <button id="loadEventsBtn">Load Events</button>
+    <ul id="eventList"></ul>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
