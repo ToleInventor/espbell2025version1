@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 const BLOB_API_BASE = 'https://blob.vercel-storage.com/v1/blob';
-const BLOB_TOKEN = process.env.BLOB_READ_WRITE_TOKEN;
+const BLOB_TOKEN = vercel_blob_rw_ykX78001m3aY6vyi_8Zv0UHQswSL1JRKdwPuSC0gDe3lVvE;
 
 const HEADERS = {
   Authorization: `Bearer ${BLOB_TOKEN}`,
